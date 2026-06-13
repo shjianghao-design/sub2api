@@ -6,9 +6,12 @@
 data/
 postgres_data/
 redis_data/
+dev_data/
 
 # Environment configuration (contains sensitive information)
 .env
+.env.dev
+.env.baota
 
 # Backup files
 *.backup
